@@ -1,0 +1,3507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vasia – Woocommerce Theme</title>
+
+    <!-- Css files -->
+    <link rel="stylesheet" href="assets/Css/style.css" />
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- aos  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-full">
+      <header id="header">
+        <div class="header-cont">
+          <div class="desktop-header d-none d-lg-block">
+            <div class="topbar-header d-flex align-items-center">
+              <div class="container-fluid">
+                <div class="row mx-0">
+                  <div class="col-6 topbar-left d-flex align-items-center">
+                    <div class="social-list">
+                      <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+
+                      <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+
+                      <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa-brands fa-pinterest"></i>
+                      </a>
+                    </div>
+                    <div class="phone">
+                      <i class="fa-solid fa-phone"></i>
+                      <a href="tel:+6868866888">
+                        <span>+68 6886 6888</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="col-6 topbar-right d-flex align-items-center justify-content-end"
+                  >
+                    <div class="desktop-header-account">
+                      <a
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                      >
+                        <i class="fa-regular fa-user"></i>
+                        <span class="icon-text">Sign in</span>
+                      </a>
+                    </div>
+                    <div class="desktop-language-switcher">
+                      <span>Languages</span>
+                      <i class="fa-solid fa-angle-down"></i>
+                      <div class="dropdown position-absolute">
+                        <ul class="m-0 list-unstyled">
+                          <li class="active-lang">
+                            <a href="#">English</a>
+                          </li>
+                          <li>
+                            <a href="#">Germany</a>
+                          </li>
+                          <li>
+                            <a href="#">France</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="desktop-currency-switcher">
+                      <span>Currencies</span>
+                      <i class="fa-solid fa-angle-down"></i>
+                      <div class="dropdown position-absolute">
+                        <ul class="m-0 list-unstyled">
+                          <li class="active-lang">
+                            <a href="#">USD</a>
+                          </li>
+                          <li>
+                            <a href="#">Euro</a>
+                          </li>
+                          <li>
+                            <a href="#">GBP</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-header">
+              <div class="container-fluid">
+                <div class="row mx-0 position-relative">
+                  <div class="col-2 d-flex align-items-center">
+                    <div class="desktop-logo">
+                      <a href="index.html">
+                        <img
+                          style="width: 100px; height: 34px"
+                          src="assets/img/logo.png"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-8 d-flex justify-content-center">
+                    <div class="desktop-menu">
+                      <ul
+                        class="header-search-popular list-unstyled m-0 d-flex"
+                      >
+                        <li>
+                          <a href="#" class="menu-item-link">
+                            <span class="menu-title current">Home</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                          </a>
+
+                          <div class="mega-dropdown-menu">
+                            <div class="container">
+                              <div class="first-row d-flex mb-5">
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_fashion1.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Fashion 1</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_fashion2.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Fashion 2</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_fashion3.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Fashion 3</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_fashion4.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Fashion 4</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_shoes1.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Shoes 1</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_shoes2.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Shoes 2</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_shoes3.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Shoes 3</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_shoes4.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Shoes 4</span>
+                                  </a>
+                                </div>
+                              </div>
+
+                              <div class="first-row d-flex mb-3">
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_bag1.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Bag 1</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_bag2.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Bag 2</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_bag3.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Bag 3</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_bag4.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Bag 4</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_glasses1.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Glasses 1</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_glasses2.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Glasses 2</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_glasses3.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Glasses 3</span>
+                                  </a>
+                                </div>
+
+                                <div
+                                  class="fashion d-flex flex-column align-items-center"
+                                >
+                                  <a
+                                    href="index.html"
+                                    class="d-flex flex-column align-items-center"
+                                  >
+                                    <img
+                                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/home_glasses4.jpg"
+                                      alt=""
+                                    />
+                                    <span class="mt-1">Glasses 4</span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li>
+                          <a href="#" class="menu-item-link">
+                            <span class="menu-title position-relative"
+                              >Shop
+                              <div class="underline"></div>
+                            </span>
+                            <i class="fa-solid fa-angle-down"></i>
+                          </a>
+
+                          <div class="dropdown-menu mega-dropdown-menu">
+                            <div class="container">
+                              <div class="row mx-0 d-flex">
+                                <div class="col-3 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Layout</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >No Sidebar</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Left column</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Right column</span
+                                    >
+                                  </a>
+                                </div>
+
+                                <div class="col-3 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Features</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Show description</span
+                                    >
+
+                                    <span
+                                      class="menu-label"
+                                      style="background-color: #282828"
+                                    >
+                                      on top
+                                    </span>
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Show description</span
+                                    >
+                                    <span
+                                      class="menu-label"
+                                      style="background-color: #282828"
+                                    >
+                                      on bottom
+                                    </span>
+                                  </a>
+
+                                  <a href="shop-subcategories.html" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Show subcategories</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Load More</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Infinite scroll</span
+                                    >
+                                  </a>
+                                </div>
+
+                                <div class="col-3 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Filter</span
+                                    >
+                                  </a>
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Top</span
+                                    >
+                                  </a>
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Sidebar</span
+                                    >
+                                  </a>
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Off - Canvas</span
+                                    >
+                                  </a>
+                                </div>
+
+                                <div class="col-3 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Product Style</span
+                                    >
+                                  </a>
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Style 1</span
+                                    >
+                                  </a>
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Style 2</span
+                                    >
+                                  </a>
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Style 3</span
+                                    >
+                                  </a>
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Style 4</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Style 5</span
+                                    >
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li>
+                          <a href="#" class="menu-item-link">
+                            <span class="menu-title position-relative"
+                              >Product
+                              <div class="underline"></div>
+                            </span>
+                            <i class="fa-solid fa-angle-down"></i>
+                          </a>
+
+                          <div
+                            style="width: 800px !important"
+                            class="dropdown-menu mega-dropdown-menu"
+                          >
+                            <div class="container">
+                              <div class="row mx-0 d-flex">
+                                <div class="col-4 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Product Gallery</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Showcase
+
+                                      <span
+                                        class="menu-label"
+                                        style="background-color: #81d742"
+                                      >
+                                        New
+                                      </span>
+                                    </span>
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Simple Style</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Image topbar-right</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Full width</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Grid - 1 column</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Grid - 2 columns</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Vertical Thumbnails</span
+                                    >
+                                  </a>
+                                </div>
+
+                                <div class="col-4 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Features</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                    >
+                                      Gallery For Variation
+
+                                      <span
+                                        class="menu-label"
+                                        style="background-color: red"
+                                      >
+                                        Hot
+                                      </span>
+                                    </span>
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Countdown</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Countdown For Varidation</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Video Button</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Video In Gallery</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Tab accordion</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Tab vertical</span
+                                    >
+                                  </a>
+                                </div>
+
+                                <div class="col-4 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Product type</span
+                                    >
+                                  </a>
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Variable product</span
+                                    >
+                                  </a>
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >External product</span
+                                    >
+                                  </a>
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Grouped product</span
+                                    >
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li>
+                          <a href="#" class="menu-item-link">
+                            <span class="menu-title position-relative"
+                              >Page
+                              <div class="underline"></div>
+                            </span>
+                            <i class="fa-solid fa-angle-down"></i>
+                          </a>
+
+                          <div
+                            style="width: 500px !important"
+                            class="dropdown-menu mega-dropdown-menu"
+                          >
+                            <div class="container">
+                              <div class="row mx-0 d-flex">
+                                <div class="col-6 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Woocommerce</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                    >
+                                      My account
+                                    </span>
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Checkout</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Shopping Cart</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Wishlist</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Grid - 1 column</span
+                                    >
+                                  </a>
+                                </div>
+
+                                <div class="col-6 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Other Page</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                    >
+                                      About us
+                                    </span>
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Contact us</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Store Locator</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >404 page</span
+                                    >
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li>
+                          <a href="#" class="menu-item-link">
+                            <span class="menu-title position-relative"
+                              >Categories
+                              <div class="underline"></div>
+                            </span>
+                            <i class="fa-solid fa-angle-down"></i>
+                          </a>
+
+                          <div
+                            style="width: 100% !important"
+                            class="mega-dropdown-menu dropdown-menu"
+                          >
+                            <div class="container">
+                              <div class="row mx-0 d-flex">
+                                <div class="col-3 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Clothing</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                    >
+                                      Polo shirts
+                                    </span>
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Active wear</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Casual wear</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Leg wear</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Outer wear</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Swimwear</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Jeans by type</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Ponchos</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Skirts</span
+                                    >
+                                  </a>
+                                </div>
+
+                                <div class="col-3 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Collection</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                    >
+                                      Mens
+                                    </span>
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Mens</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Spring/Summer 2021</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Winter 2020</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Womens</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Ready-to-Wear</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >T-Shirts & Vests</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Tracksuits & Joggers</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Gym clothes</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Jeans</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Jackets</span
+                                    >
+                                  </a>
+                                </div>
+
+                                <div class="col-3 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Accessories</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                    >
+                                      Hats & Gloves
+                                    </span>
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Sunglasses</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Ties</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Belts</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Hats & Gloves</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Wallets & Small Accessories</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Dress</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Hoodies</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Polo shirt</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Shirt</span
+                                    >
+                                  </a>
+                                </div>
+
+                                <div class="col-3 d-flex align-items-center">
+                                  <img
+                                    style="width: 100%"
+                                    src="assets/img/img-right-menu.webp"
+                                    alt=""
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li>
+                          <a href="#" class="menu-item-link">
+                            <span class="menu-title position-relative"
+                              >Blog
+                              <div class="underline"></div>
+                            </span>
+                            <i class="fa-solid fa-angle-down"></i>
+                          </a>
+
+                          <div
+                            style="width: 500px !important"
+                            class="dropdown-menu mega-dropdown-menu"
+                          >
+                            <div class="container">
+                              <div class="row mx-0 d-flex">
+                                <div class="col-6 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Blog Type</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                    >
+                                      Blog grid
+                                    </span>
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Blog mask</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Blog list</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Left Sidebar</span
+                                    >
+                                  </a>
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Right Sidebar</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >No Sidebar</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Pagination</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Ajax Load More</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Infinite Scroll</span
+                                    >
+                                  </a>
+                                </div>
+
+                                <div class="col-6 d-flex flex-column">
+                                  <a class="dropdown-menu-title mb-3" href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Single Post</span
+                                    >
+                                  </a>
+
+                                  <a href="#">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                    >
+                                      Post example #1
+                                    </span>
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                    >
+                                      Post example #2</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Left Sidebar</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Right Sidebar</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >No Sidebar</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Right Title</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Center Title</span
+                                    >
+                                  </a>
+
+                                  <a href="#" class="">
+                                    <span
+                                      style="color: #313030"
+                                      class="position-relative"
+                                      >Left Title</span
+                                    >
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-2 desktop-header-icon d-flex align-items-center justify-content-end"
+                  >
+                    <div class="desktop-search d-flex align-items-center">
+                      <button
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal-1"
+                      >
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+
+                    <div class="desktop-wishlist d-flex align-items-center">
+                      <i class="fa-regular fa-heart position-relative">
+                        <span class="wishlist-count bottom-0"> (0) </span>
+                      </i>
+                    </div>
+
+                    <div
+                      class="desktop-cart d-flex align-items-center"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal-2"
+                    >
+                      <i class="fa-solid fa-bag-shopping position-relative">
+                        <span class="wishlist-count bottom-0"> (0) </span>
+                      </i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+
+                  <div class="form-content w-100">
+                    <header class="mb-4 w-100">
+                      <a
+                        href="index.html"
+                        class="d-flex justify-content-center"
+                      >
+                        <img
+                          style="width: 100px; height: 30px"
+                          src="assets/img/logo.png"
+                          alt=""
+                        />
+                      </a>
+                    </header>
+                    <div>
+                      <ul
+                        class="form-content-tabs m-0 mb-4 d-flex list-unstyled"
+                      >
+                        <li class="rt-tabs tabs-active">
+                          <a href="#">Login</a>
+                        </li>
+
+                        <li class="rt-tabs">
+                          <a href="#"> Register </a>
+                        </li>
+                      </ul>
+
+                      <form class="form-login" action="">
+                        <p class="form-row text-start">
+                          <label for="username">
+                            Username or email address *
+                          </label>
+                          <input type="text" id="username" required />
+                        </p>
+
+                        <p class="form-row text-start">
+                          <label for="password"> Password * </label>
+                          <input type="password" id="password" required />
+                        </p>
+
+                        <div class="box-password d-flex">
+                          <p class="text-start d-flex align-items-center">
+                            <input class="me-2" type="checkbox" />
+                            <span>Remember me</span>
+                          </p>
+
+                          <a href="#" class="d-flex justify-content-end"
+                            >Lost password ?</a
+                          >
+                        </div>
+
+                        <button class="login-btn" type="submit">Log In</button>
+                      </form>
+
+                      <form class="form-regist" action="">
+                        <p class="form-row text-start">
+                          <label for="username"> Username * </label>
+                          <input type="text" id="username" required />
+                        </p>
+
+                        <p class="form-row text-start">
+                          <label for="email"> Email address * </label>
+                          <input type="email" id="email" required />
+                        </p>
+
+                        <p class="form-row text-start">
+                          <label for="password"> Password * </label>
+                          <input type="password" id="password" required />
+                        </p>
+
+                        <p class="text-center privacy-text">
+                          Your personal data will be used to support your
+                          experience throughout this website, to manage access
+                          to your account, and for other purposes described in
+                          our
+                          <a href="">privacy policy</a>
+                        </p>
+
+                        <button class="registr-btn" type="submit">
+                          Register
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="modal fade"
+            id="exampleModal-1"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+
+                  <form action="" class="search-form">
+                    <div class="input-wrapper d-flex">
+                      <input
+                        type="text"
+                        class="search-field"
+                        placeholder="Search..."
+                      />
+
+                      <button type="submit" class="search-submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+                  </form>
+
+                  <div class="search-content">
+                    <p>Popular searches :</p>
+
+                    <ul class="popular-search list-unstyled">
+                      <li class="d-inline-block">
+                        <a href="#">men</a>
+                      </li>
+
+                      <li class="d-inline-block">
+                        <a href="#">clothing</a>
+                      </li>
+
+                      <li class="d-inline-block">
+                        <a href="#">women</a>
+                      </li>
+
+                      <li class="d-inline-block">
+                        <a href="#">kids</a>
+                      </li>
+
+                      <li class="d-inline-block">
+                        <a href="#">new</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="modal fade animate__animated animate__fadeInRight"
+            id="exampleModal-2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+
+                  <div class="cart-side-navbar">Your Cart</div>
+
+                  <div class="cart-centent">
+                    <p
+                      class="empty-message d-flex flex-column justify-content-center"
+                    >
+                      <i class="d-block my-4 fa-solid fa-cart-shopping"></i>
+                      <span>No products in the cart.</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mobile-header d-block d-lg-none">
+            <div class="container-lg">
+              <div class="row mx-0">
+                <div class="col-3 d-flex align-items-center">
+                  <div class="menu-mobile me-2">
+                    <div
+                      class="menu-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal-3"
+                    >
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div
+                      class="modal fade animate__animated animate__fadeInLeft"
+                      id="exampleModal-3"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+
+                            <div class="box-language">
+                              <div class="mobile-language">
+                                <span>Languages</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                                <div class="dropdown position-absolute">
+                                  <ul class="m-0 list-unstyled">
+                                    <li class="active-lang">
+                                      <a href="#">English</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Germany</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">France</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+
+                              <div class="mobile-currency">
+                                <span>Currencies</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                                <div class="dropdown position-absolute">
+                                  <ul class="m-0 list-unstyled">
+                                    <li class="active-lang">
+                                      <a href="#">USD</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Euro</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">GBP</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="mobile-phone">
+                              <i class="fa-solid fa-phone"></i>
+                              <a href="tel:+6868866888">
+                                <span>+68 6886 6888</span>
+                              </a>
+                            </div>
+
+                            <div class="mobile-menu-text active-menu">Menu</div>
+
+                            <div
+                              class="accordion accordion-flush"
+                              id="accordionFlushExample"
+                            >
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseOne"
+                                  >
+                                    Home
+                                  </button>
+                                </h2>
+                                <div
+                                  id="flush-collapseOne"
+                                  class="accordion-collapse collapse"
+                                  data-bs-parent="#accordionFlushExample"
+                                >
+                                  <div class="accordion-body p-0">
+                                    <a href="#">Home List</a>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseTwo"
+                                  >
+                                    Shop
+                                  </button>
+                                </h2>
+                                <div
+                                  id="flush-collapseTwo"
+                                  class="accordion-collapse collapse"
+                                  data-bs-parent="#accordionFlushExample"
+                                >
+                                  <div class="accordion-body p-0">
+                                    <a href="#">Layout</a>
+                                    <a href="#">Features</a>
+                                    <a href="#">Filters</a>
+                                    <a href="#">Product Style</a>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseThree"
+                                  >
+                                    Product
+                                  </button>
+                                </h2>
+                                <div
+                                  id="flush-collapseThree"
+                                  class="accordion-collapse collapse"
+                                  data-bs-parent="#accordionFlushExample"
+                                >
+                                  <div class="accordion-body p-0">
+                                    <a href="#">Product Gallery</a>
+                                    <a href="#">Features</a>
+                                    <a href="#">Product Type</a>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseFour"
+                                  >
+                                    Page
+                                  </button>
+                                </h2>
+                                <div
+                                  id="flush-collapseFour"
+                                  class="accordion-collapse collapse"
+                                  data-bs-parent="#accordionFlushExample"
+                                >
+                                  <div class="accordion-body p-0">
+                                    <a href="#">Woocommerce</a>
+                                    <a href="#">Other Page</a>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseFive"
+                                  >
+                                    Categories
+                                  </button>
+                                </h2>
+                                <div
+                                  id="flush-collapseFive"
+                                  class="accordion-collapse collapse"
+                                  data-bs-parent="#accordionFlushExample"
+                                >
+                                  <div class="accordion-body p-0">
+                                    <a href="#">Clothing</a>
+                                    <a href="#">Collection</a>
+                                    <a href="#">Accessories</a>
+                                    <a href="#">Image Block Menu</a>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix"
+                                    aria-expanded="false"
+                                    aria-controls="flush-collapseSix"
+                                  >
+                                    Blog
+                                  </button>
+                                </h2>
+                                <div
+                                  id="flush-collapseSix"
+                                  class="accordion-collapse collapse"
+                                  data-bs-parent="#accordionFlushExample"
+                                >
+                                  <div class="accordion-body p-0">
+                                    <a href="#">Blog Type</a>
+                                    <a href="#">Single Post</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="search-mobile">
+                    <button
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal-1"
+                    >
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-6 d-flex justify-content-center align-items-center"
+                >
+                  <div
+                    id="mobile-log"
+                    class="d-flex justify-content-center align-items-center"
+                  >
+                    <a href="index.html" class="w-100 d-flex">
+                      <img
+                        style="height: 34px; max-width: 100px"
+                        src="assets/img/logo.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-3 d-flex justify-content-end align-items-center p-0"
+                >
+                  <div
+                    class="mobile-header-account me-3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <i class="fa-regular fa-user"></i>
+                  </div>
+                  <div class="mobile-cart-cont">
+                    <div
+                      class="mobile-cart"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal-2"
+                    >
+                      <i class="fa-solid fa-bag-shopping"></i>
+                      <span class="cart-count">(0)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-bottom d-block d-lg-none">
+            <div class="mobile-bottom-toolbar">
+              <div class="page-link">
+                <a href="index.html">
+                  <i class="fa-solid fa-house-chimney"></i>
+                  <span>Home 01</span>
+                </a>
+              </div>
+
+              <div class="page-link">
+                <a href="shop.html">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  <span>Shop</span>
+                </a>
+              </div>
+
+              <div class="page-link">
+                <a href="wishlist.html">
+                  <i class="fa-regular fa-heart position-relative">
+                    <span class="wishlist-count">(0)</span>
+                  </i>
+                  <span>Wishlist</span>
+                </a>
+              </div>
+
+              <div class="page-link">
+                <a href="checkout.html">
+                  <i class="fa-solid fa-truck-fast"></i>
+                  <span>Checkout</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="pt-3 pb-5 men-shirt">
+          <div class="container">
+            <div class="breadcrumb d-flex flex-wrap">
+              <ul class="d-flex flex-wrap m-0 list-unstyled">
+                <li>
+                  <a href="index.html"> Home </a>
+                </li>
+                <li>
+                  <a href="shop-sidebar-left.html">
+                    <span style="color: #707070">Shop</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="shop-sidebar-left.html">
+                    <span style="color: #707070"> Dress </span></a
+                  >
+                </li>
+
+                <li>
+                  <span>Women’s Standard-Fit Short-Sleeve Top</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="row mx-0 mt-2 d-flex flex-column flex-md-row">
+              <div class="col-12 col-md-6 col-lg-8 p-0">
+                <div class="row mx-0">
+
+                    <div class="col-12 col-lg-2 d-none d-lg-flex flex-column justify-content-center mt-3">
+                        <div class="men-slider-img me-3 flex-grow-1">
+                          <img
+                            class="w-100"
+                            src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/28.jpg"
+                            alt=""
+                          />
+                        </div>
+    
+                        <div class="men-slider-img me-3 flex-grow-1">
+                          <img
+                            class="w-100"
+                            src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/28-1.jpg"
+                            alt=""
+                          />
+                        </div>
+    
+                        <div class="men-slider-img me-3 flex-grow-1">
+                          <img
+                            class="w-100"
+                            src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/28-2.jpg"
+                            alt=""
+                          />
+                        </div>
+    
+                        <div class="men-slider-img me-3 flex-grow-1">
+                          <img
+                            class="w-100"
+                            src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/28-3.jpg"
+                            alt=""
+                          />
+                        </div>
+    
+                        <div class="men-slider-img me-3 flex-grow-1">
+                            <img
+                              class="w-100"
+                              src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/28.jpg"
+                              alt=""
+                            />
+                          </div>
+                       
+                      </div>
+
+                  <div class="col-12 p-0 col-lg-10">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                      <div class="carousel-indicators opacity-0">
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#carouselExampleIndicators"
+                          data-bs-slide-to="3"
+                          aria-label="Slide 4"
+                        ></button>
+                      </div>
+
+                      <div class="carousel-inner">
+                        <div
+                          class="carousel-item active image-cont zoom position-relative"
+                          onmousemove="zoom(event)"
+                          style="
+                            background-image: url(http://vasia.mallthemes.com/wp-content/uploads/2020/12/28.jpg);
+                          "
+                        >
+                          <img
+                            class="zoomImg w-100 h-100"
+                            src="http://vasia.mallthemes.com/wp-content/uploads/2020/12/28.jpg"
+                            alt=""
+                          />
+
+                          <div class="product-video">
+                                <a href="#" class="product-page-video ">
+                                    <i class="fa-solid fa-play"></i>
+
+                                    <span class=" ">Watch video</span>
+                                </a>
+                          </div>
+                        </div>
+
+                        <div
+                          class="carousel-item image-cont zoom"
+                          onmousemove="zoom(event)"
+                          style="
+                            background-image: url(http://vasia.mallthemes.com/wp-content/uploads/2020/12/28-1.jpg);
+                          "
+                        >
+                          <img
+                            class="zoomImg w-100 h-100"
+                            src="http://vasia.mallthemes.com/wp-content/uploads/2020/12/28-1.jpg"
+                            alt=""
+                          />
+                        </div>
+
+                        <div
+                          class="carousel-item image-cont zoom"
+                          onmousemove="zoom(event)"
+                          style="
+                            background-image: url(http://vasia.mallthemes.com/wp-content/uploads/2020/12/28-2.jpg);
+                          "
+                        >
+                          <img
+                            class="zoomImg w-100 h-100"
+                            src="http://vasia.mallthemes.com/wp-content/uploads/2020/12/28-2.jpg"
+                            alt=""
+                          />
+                        </div>
+
+                        <div
+                          class="carousel-item image-cont zoom"
+                          onmousemove="zoom(event)"
+                          style="
+                            background-image: url(		http://vasia.mallthemes.com/wp-content/uploads/2020/12/28-3.jpg);
+                          "
+                        >
+                          <img
+                            class="zoomImg w-100 h-100"
+                            src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/28-3.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+
+                  
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+                <h1 class="product-title">
+                  WOMEN’S STANDARD-FIT SHORT-SLEEVE TOP
+                </h1>
+                <p class="product-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <a href="#"> (7 customer reviews) </a>
+                </p>
+
+                <p class="mb-3">$45.00 - $80.00</p>
+
+                <p class="short-dec">
+                  The Neke Dri-FIT One Top is our most versatile shirt, designed
+                  for all the ways you work out—from the machines to the mat to
+                  the miles.Soft, smooth fabric (made from 100% recycled
+                  polyester fibres) comes in a breathable silhouette to keep you
+                  cool and dry.This product is made from 100% recycled polyester
+                  fibres.
+                </p>
+
+                <div class="vasia-size">
+                  <img
+                    class="me-2"
+                    src="	http://vasia.mallthemes.com/wp-content/themes/vasia/assets/css/images/size_chart_icon.png"
+                    alt=""
+                  />
+                  Size Chart
+                </div>
+
+                
+
+                <div class="select-size d-flex align-items-center mt-3">
+                  <span class="me-3" style="color: #313030">Size</span>
+                  <span class="size selected-size">L</span>
+                  <span class="size">M</span>
+                  <span class="size">S</span>
+                  <span class="size">XL</span>
+                  <span class="size">XS</span>
+                  <span class="size">XXL</span>
+                </div>
+
+                <div class="product-price mt-3 d-flex flex-column">
+                  <div class="d-flex align-items-center">
+                    <del class="me-1">$60.00</del>
+                    <span>$55.00</span>
+                  </div>
+
+                  <p class="stock">119 in stock</p>
+                </div>
+
+                <div class="varidation-add-to-cart">
+                  <div class="quantity">
+                    <input type="button" class="minus" value="-" />
+                    <input
+                      type="input"
+                      step="1"
+                      min="1"
+                      max="200"
+                      value="1"
+                      class="input-text"
+                    />
+                    <input type="button" class="plus" value="+" />
+                  </div>
+
+                  <button class="add-to-cart" type="submit">Add To Cart</button>
+                </div>
+
+                <div class="add-to-wishlist mt-4">
+                  <i class="fa-regular fa-heart"></i>
+                  Add To Wishlist
+                </div>
+
+                <div class="product-meta">
+                  <div class="sku">
+                    <span>SKU:</span>
+                    <span>C-BLUE-1</span>
+                  </div>
+                  <div class="posted_in">
+                    Categories:
+                    <a
+                      href="http://vasia.mallthemes.com/product-category/shop-show-subcategories/gym-clothes-2/"
+                      rel="tag"
+                      >Clothing</a
+                    >,
+                    <a
+                      href="http://vasia.mallthemes.com/product-category/shop-show-subcategories/jeans-2/"
+                      rel="tag"
+                      >Dress</a
+                    >,
+                    <a
+                      href="http://vasia.mallthemes.com/product-category/new-in/"
+                      rel="tag"
+                      >New In</a
+                    >,
+                    <a
+                      href="http://vasia.mallthemes.com/product-category/clothing/polo-shirts/"
+                      rel="tag"
+                      >Polo shirts</a
+                    >,
+                    <a
+                      href="http://vasia.mallthemes.com/product-category/shop-show-subcategories/shirt-2/"
+                      rel="tag"
+                      >Shirt</a
+                    >,
+                    <a
+                      href="http://vasia.mallthemes.com/product-category/shop-show-subcategories/"
+                      rel="tag"
+                      >Shop</a
+                    >,
+                    <a
+                      href="http://vasia.mallthemes.com/product-category/accessories/sunglasses/"
+                      rel="tag"
+                      >Sunglasses</a
+                    >,
+                    <a
+                      href="http://vasia.mallthemes.com/product-category/accessories/wallets-small-accessories/"
+                      rel="tag"
+                      >Wallets & Small Accessories</a
+                    >
+                  </div>
+
+                  <div class="social-sharing d-flex">
+                    <span class="text-uppercase">Share: </span>
+                    <ul class="social-icons list-unstyled m-0 d-flex ms-2">
+                      <li class="me-3">
+                        <a style="color: #4267b2" href="#">
+                          <i
+                            style="color: #4267b2"
+                            class="fa-brands fa-facebook-f"
+                          ></i>
+                        </a>
+                      </li>
+                      <li class="me-3">
+                        <a href="#">
+                          <i
+                            style="color: #e60023"
+                            class="fa-brands fa-pinterest-p"
+                          ></i>
+                        </a>
+                      </li>
+
+                      <li class="me-3">
+                        <a href="#">
+                          <i
+                            style="color: #1da1f2"
+                            class="fa-brands fa-twitter"
+                          ></i>
+                        </a>
+                      </li>
+
+                      <li class="me-2">
+                        <a href="#">
+                          <i
+                            style="color: #4fce5d"
+                            class="fa-brands fa-whatsapp"
+                          ></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-60">
+          <div class="container">
+            <div class="tabs">
+              <ul
+                class="m-0 d-flex justify-content-center align-items-center list-unstyled flex-wrap"
+              >
+                <li class="mx-3 text-center">
+                  <span class="tabs-item current">
+                    <span class="position-relative">Description</span>
+                  </span>
+                </li>
+
+                <li class="mx-3">
+                  <span class="tabs-item">
+                    <span class="position-relative">
+                      Additional Information
+                    </span>
+                  </span>
+                </li>
+
+                <li class="mx-3">
+                  <span class="tabs-item">
+                    <span class="position-relative">Reviews (7) </span>
+                  </span>
+                </li>
+
+                <li class="mx-3">
+                  <span class="tabs-item">
+                    <span class="position-relative">Delivery Information </span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pi-pdpmainbody mt-4">
+              <h4 class="headline-5">LIGHT, SOFT AND VENTILATED.</h4>
+              <p>
+                A lightweight favourite returns with more breathability.The Nike
+                Dri-FIT 365 Top is made using runner-informed data for cooling
+                in areas where you need it. It has the same soft feel you’ve
+                come to expect, with design details that nod
+                <br />
+                to the iconic Nike chevron.This product is made from 100%
+                recycled polyester fibres.
+              </p>
+
+              <h5 class="headline-5 mt-3">Lightweight and Soft</h5>
+              <p>
+                Knit fabric is brushed on both sides for a soft feel.The top’s
+                lightweight design drapes over the body, keeping you comfortable
+                with every step.
+              </p>
+
+              <h5 class="headline-5">Flexible Coverage</h5>
+              <p>
+                With flexibility built in right where you need it, the jacket is
+                made from lightweight fabric that keeps you comfortably covered
+                and moving naturally. The drawcord at the hood can be cinched
+                down to secure the fit.
+              </p>
+
+              <h5 class="headline-5">Optimal Breathability</h5>
+              <p>
+                Nike Breathe fabric moves sweat from your skin and features a
+                highly breathable construction to help you stay dry and
+                comfortable.
+              </p>
+
+              <h5 class="headline-5">Data-Enhanced Design</h5>
+              <p>
+                Open-hole knit fabric uses data from hundreds of runners.It’s
+                placed in high-heat zones at the front panel to help keep you
+                cool on your run.
+              </p>
+
+              <h5 class="headline-5">Iconic Design</h5>
+              <p>
+                The top’s knit structure forms the iconic Nike chevron at the
+                front, nodding to the look of the Windrunner.
+              </p>
+
+              <h5 class="headline-5">More Benefits</h5>
+              <p>Dri-FIT Technology helps you stay dry and comfortable.</p>
+
+              <h5 class="headline-5">Product Details</h5>
+              <ul>
+                <li>Reflective design elements</li>
+                <li>
+                  Not intended for use as Personal Protective Equipment (PPE)
+                </li>
+                <li>100% polyester</li>
+                <li>Front button closures</li>
+                <li>Embroidered logo detail at chest</li>
+                <li>Buttoned barrel cuffs</li>
+                <li>Shirttail hem</li>
+                <li>Our Style No. PLAU-MS40</li>
+                <li>Manufacturer Style No. 710811288007</li>
+              </ul>
+            </div>
+
+            <div id="additional_tab" class="mt-4">
+              <table class="shop-attributes w-100">
+                <tbody>
+                  <tr>
+                    <th>Color</th>
+                    <td>DarkSeaGreen</td>
+                  </tr>
+                  <tr>
+                    <th>Brand</th>
+                    <td>Amazon Essentials, Hanes</td>
+                  </tr>
+
+                  <tr>
+                    <th>Size</th>
+                    <td>L, M, S, XL, XS, XXL</td>
+                  </tr>
+
+                  <tr>
+                    <th>Form</th>
+                    <td>Standard fit for a relaxed, easy feel</td>
+                  </tr>
+
+                  <tr>
+                    <th>Material</th>
+                    <td>70% cotton/30% silk</td>
+                  </tr>
+
+                  <tr>
+                    <th>From</th>
+                    <td>Made in Italy</td>
+                  </tr>
+
+                  <tr>
+                    <th>Style</th>
+                    <td>DH2914-100</td>
+                  </tr>
+
+                  <tr>
+                    <th>Country/Region of Origin</th>
+                    <td>Italy</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div id="delivery" class="mt-4">
+              <p>
+                If your order contains items that need to stay cool like
+                yoghurts or hummus, you can nominate a day for your delivery.
+                <br />
+                Nominated Day Delivery £5, or FREE for orders over £50.
+              </p>
+              <p>
+                If your order does not include these items, you can choose Next
+                Day delivery or Standard delivery. <br />
+                Next Day delivery £7, or FREE for orders over £75. Available on
+                orders placed before 12pm. <br />
+                Standard Delivery £5, or FREE for orders over £50.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-60 mb-90 d-flex flex-column align-items-center">
+          <h2 class="title mb-4">Upsell products</h2>
+
+          <div
+            class="product-carousel owl-carousel owl-theme position-relative"
+          >
+            <!-- Slider 1 -->
+            <div class="item">
+              <div class="product-inner">
+                <div class="product-img position-relative">
+                  <img
+                    src="http://vasia.mallthemes.com/wp-content/uploads/2020/12/14-768x768.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="hover-img"
+                    src="http://vasia.mallthemes.com/wp-content/uploads/2020/12/14-1-768x768.jpg"
+                    alt=""
+                  />
+
+                  <div class="quickview">Quick View</div>
+
+                  <div
+                    class="add-to-wishlist-icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-regular fa-heart bg-white-heart"></i>
+                    <i
+                      class="fa-solid fa-heart text-black d-none black-heart"
+                    ></i>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <div class="product-title text-capitalize">
+                    <h6>
+                      <a href="#"> Officiis debitis varius</a>
+                    </h6>
+                  </div>
+                  <div
+                    class="box-price d-flex justify-content-between align-items-center flex-wrap"
+                  >
+                    <div class="product-price">$60.00</div>
+                  </div>
+                  <div class="box-cart d-flex justify-content-between">
+                    <div class="product-cart">
+                      <a href="#"> Add To Cart </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="product-inner">
+                <div class="product-img position-relative">
+                  <img src="assets/img/5-600x600.jpg" alt="" />
+                  <img
+                    class="hover-img"
+                    src="assets/img/5-1-600x600.jpg"
+                    alt=""
+                  />
+
+                  <div class="quickview">Quick View</div>
+
+                  <div
+                    class="add-to-wishlist-icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-regular fa-heart bg-white-heart"></i>
+                    <i
+                      class="fa-solid fa-heart text-black d-none black-heart"
+                    ></i>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <div class="product-title text-capitalize">
+                    <h6>
+                      <a href="#"> Classic Cotton Button Down With Placket </a>
+                    </h6>
+                  </div>
+                  <div
+                    class="box-price d-flex justify-content-between align-items-center flex-wrap"
+                  >
+                    <div class="product-price">$80.00-$89.00</div>
+                    <div class="shop-swatches">
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #24c4f4;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #e9e1d6;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #fcebe4;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                    </div>
+                  </div>
+                  <div
+                    class="box-cart d-flex justify-content-between align-items-center"
+                  >
+                    <div class="product-cart">
+                      <a href="#"> Select options </a>
+                    </div>
+                    <div class="shop-swatches">
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #24c4f4;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #e9e1d6;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #fcebe4;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="product-inner">
+                <div class="product-img position-relative">
+                  <img src="assets/img/24-lookbook2-600x600.jpg" alt="" />
+                  <img
+                    class="hover-img"
+                    src="assets/img/24-lookbook2-1-768x768.jpg"
+                    alt=""
+                  />
+
+                  <div class="quickview">Quick View</div>
+
+                  <div
+                    class="add-to-wishlist-icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-regular fa-heart bg-white-heart"></i>
+                    <i
+                      class="fa-solid fa-heart text-black d-none black-heart"
+                    ></i>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <div class="product-title text-capitalize">
+                    <h6>
+                      <a href="#"> Haze Boxy Studio Shirt </a>
+                    </h6>
+                  </div>
+                  <div
+                    class="box-price d-flex justify-content-between align-items-center flex-wrap"
+                  >
+                    <div class="product-price">$45.00-$70.00</div>
+                    <div class="swatches">
+                      <span class="swatch">
+                        <img
+                          src="http://vasia.mallthemes.com/wp-content/uploads/2020/12/19-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                      <span class="swatch">
+                        <img
+                          src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/8-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                      <span class="swatch">
+                        <img
+                          src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/24-lookbook2-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="box-cart d-flex align-items-center justify-content-between"
+                  >
+                    <div class="product-cart">
+                      <a href="#"> Select options </a>
+                    </div>
+                    <div class="swatches">
+                      <span class="swatch">
+                        <img
+                          src="http://vasia.mallthemes.com/wp-content/uploads/2020/12/19-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                      <span class="swatch">
+                        <img
+                          src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/8-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                      <span class="swatch">
+                        <img
+                          src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/24-lookbook2-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="product-inner">
+                <div class="product-img position-relative">
+                  <img src="assets/img/13-768x768.jpg" alt="" />
+                  <img
+                    class="hover-img"
+                    src="assets/img/13-768x768.jpg"
+                    alt=""
+                  />
+
+                  <div class="quickview">Quick View</div>
+
+                  <div
+                    class="add-to-wishlist-icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-regular fa-heart bg-white-heart"></i>
+                    <i
+                      class="fa-solid fa-heart text-black d-none black-heart"
+                    ></i>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <div class="product-title text-capitalize">
+                    <h6>
+                      <a href="#"> Fine Wool Canvas Shirt </a>
+                    </h6>
+                  </div>
+                  <div
+                    class="box-price d-flex justify-content-between align-items-center"
+                  >
+                    <div class="product-price">$45.00-$70.00</div>
+                  </div>
+                  <div
+                    class="box-cart d-flex align-items-center justify-content-between"
+                  >
+                    <div class="product-cart">
+                      <a href="#"> Select options </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="product-inner">
+                <div class="product-img position-relative">
+                  <img src="assets/img/19-768x768.jpg" alt="" />
+                  <img
+                    class="hover-img"
+                    src="assets/img/19-1-768x768.jpg"
+                    alt=""
+                  />
+
+                  <div class="quickview">Quick View</div>
+
+                  <div
+                    class="add-to-wishlist-icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-regular fa-heart bg-white-heart"></i>
+                    <i
+                      class="fa-solid fa-heart text-black d-none black-heart"
+                    ></i>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <div class="product-title text-capitalize">
+                    <h6>
+                      <a href="#">Single Pocket Brushed Flannel </a>
+                    </h6>
+                  </div>
+                  <div
+                    class="box-price d-flex justify-content-between align-items-center"
+                  >
+                    <div class="product-price">$44.00-$55.00</div>
+                  </div>
+                  <div
+                    class="box-cart d-flex align-items-center justify-content-between"
+                  >
+                    <div class="product-cart">
+                      <a href="#"> Select options </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="product-inner">
+                <div class="product-img position-relative">
+                  <img src="assets/img/12-768x768.jpg" alt="" />
+                  <img
+                    class="hover-img"
+                    src="assets/img/12-1-768x768.jpg"
+                    alt=""
+                  />
+
+                  <div class="quickview">Quick View</div>
+
+                  <div
+                    class="add-to-wishlist-icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-regular fa-heart bg-white-heart"></i>
+                    <i
+                      class="fa-solid fa-heart text-black d-none black-heart"
+                    ></i>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <div class="product-title text-capitalize">
+                    <h6>
+                      <a href="#">Men’s Fleece Pullover Hoodie</a>
+                    </h6>
+                  </div>
+                  <div
+                    class="box-price d-flex justify-content-between align-items-center"
+                  >
+                    <div class="product-price">$44.00-$55.00</div>
+                  </div>
+                  <div
+                    class="box-cart d-flex align-items-center justify-content-between"
+                  >
+                    <div class="product-cart">
+                      <a href="#"> Select options </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="mt-60 mb-90 related d-flex flex-column align-items-center justify-content-center"
+        >
+          <h2 class="title mb-4">Related Products</h2>
+
+          <div
+            class="product-carousel owl-carousel owl-theme position-relative"
+          >
+            <!-- Slider 1 -->
+
+            <div class="item">
+              <div class="product-inner">
+                <div class="product-img position-relative">
+                  <img src="assets/img/3-Blue-1-600x600.ipg.webp" alt="" />
+
+                  <div class="quickview">Quick View</div>
+
+                  <div class="product-label">
+                    <img
+                      style="width: 33px; height: 33px"
+                      src="http://vasia.mallthemes.com/wp-content/uploads/2021/01/hot-deal.svg'"
+                      alt=""
+                    />
+                  </div>
+
+                  <div
+                    class="add-to-wishlist-icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-regular fa-heart bg-white-heart"></i>
+                    <i
+                      class="fa-solid fa-heart text-black d-none black-heart"
+                    ></i>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <div class="product-title text-capitalize">
+                    <h6>
+                      <a href="#"> Polo Ralph Lauren Oxford Shirt </a>
+                    </h6>
+                  </div>
+                  <div
+                    class="box-price d-flex justify-content-between align-items-center flex-wrap"
+                  >
+                    <div class="product-price">$60.00-$75.00</div>
+                    <div class="shop-swatches">
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #24c4f4;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #e9e1d6;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #fcebe4;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                    </div>
+                  </div>
+                  <div
+                    class="box-cart d-flex justify-content-between align-items-center"
+                  >
+                    <div class="product-cart">
+                      <a href="#"> Select options </a>
+                    </div>
+                    <div class="swatches">
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #24c4f4;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #e9e1d6;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                      <span
+                        class="swatch m-0"
+                        style="
+                          background-color: #fcebe4;
+                          width: 12px;
+                          height: 12px;
+                        "
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="product-inner">
+                <div class="product-img position-relative">
+                  <img
+                    src="http://vasia.mallthemes.com/wp-content/uploads/2020/12/26-768x768.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="hover-img"
+                    src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/26-1-768x768.jpg"
+                    alt=""
+                  />
+
+                  <div class="quickview">Quick View</div>
+
+                  <div
+                    class="add-to-wishlist-icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-regular fa-heart bg-white-heart"></i>
+                    <i
+                      class="fa-solid fa-heart text-black d-none black-heart"
+                    ></i>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <div class="product-title text-capitalize">
+                    <h6>
+                      <a href="#"> Nake Dri-FIT Hoodie Clash </a>
+                    </h6>
+                  </div>
+                  <div
+                    class="box-price d-flex justify-content-between align-items-center flex-wrap"
+                  >
+                    <div class="product-price">$80.00-$89.00</div>
+                  </div>
+                  <div
+                    class="box-cart d-flex justify-content-between align-items-center"
+                  >
+                    <div class="product-cart">
+                      <a href="#"> Select options </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="product-inner">
+                <div class="product-img position-relative">
+                  <img src="assets/img/24-lookbook2-600x600.jpg" alt="" />
+                  <img
+                    class="hover-img"
+                    src="assets/img/24-lookbook2-1-768x768.jpg"
+                    alt=""
+                  />
+
+                  <div class="quickview">Quick View</div>
+
+                  <div
+                    class="add-to-wishlist-icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-regular fa-heart bg-white-heart"></i>
+                    <i
+                      class="fa-solid fa-heart text-black d-none black-heart"
+                    ></i>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <div class="product-title text-capitalize">
+                    <h6>
+                      <a href="#"> Haze Boxy Studio Shirt </a>
+                    </h6>
+                  </div>
+                  <div
+                    class="box-price d-flex justify-content-between align-items-center flex-wrap"
+                  >
+                    <div class="product-price">$45.00-$70.00</div>
+                    <div class="swatches">
+                      <span class="swatch">
+                        <img
+                          src="http://vasia.mallthemes.com/wp-content/uploads/2020/12/19-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                      <span class="swatch">
+                        <img
+                          src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/8-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                      <span class="swatch">
+                        <img
+                          src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/24-lookbook2-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="box-cart d-flex align-items-center justify-content-between"
+                  >
+                    <div class="product-cart">
+                      <a href="#"> Select options </a>
+                    </div>
+                    <div class="swatches">
+                      <span class="swatch">
+                        <img
+                          src="http://vasia.mallthemes.com/wp-content/uploads/2020/12/19-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                      <span class="swatch">
+                        <img
+                          src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/8-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                      <span class="swatch">
+                        <img
+                          src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/24-lookbook2-150x150.jpg"
+                          alt=""
+                        />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="product-inner">
+                <div class="product-img position-relative">
+                  <img
+                    src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/10-768x768.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="hover-img"
+                    src="	http://vasia.mallthemes.com/wp-content/uploads/2020/12/10-1-768x768.jpg"
+                    alt=""
+                  />
+
+                  <div class="quickview">Quick View</div>
+
+                  <div
+                    class="add-to-wishlist-icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-regular fa-heart bg-white-heart"></i>
+                    <i
+                      class="fa-solid fa-heart text-black d-none black-heart"
+                    ></i>
+                  </div>
+                </div>
+                <div class="product-content">
+                  <div class="product-title text-capitalize">
+                    <h6>
+                      <a href="#"> Fine Wool Canvas Shirt </a>
+                    </h6>
+                  </div>
+                  <div
+                    class="box-price d-flex justify-content-between align-items-center"
+                  >
+                    <div class="product-price">$45.00-$70.00</div>
+                  </div>
+                  <div
+                    class="box-cart d-flex align-items-center justify-content-between"
+                  >
+                    <div class="product-cart">
+                      <a href="#"> Select options </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="mt-60">
+        <div class="footer-main-text">
+          <div class="mobile-footer d-md-none">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Company
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <ul class="m-0 list-unstyled">
+                      <li>
+                        <a href="#">Wishlist</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact Us</a>
+                      </li>
+                      <li>
+                        <a href="#">My account</a>
+                      </li>
+                      <li>
+                        <a href="#">Privacy Policy</a>
+                      </li>
+                      <li>
+                        <a href="#">Store Locator</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Information
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <ul class="m-0 list-unstyled">
+                      <li>
+                        <a href="#">Checkout</a>
+                      </li>
+                      <li>
+                        <a href="#">Cart</a>
+                      </li>
+                      <li>
+                        <a href="#">Shop</a>
+                      </li>
+                      <li>
+                        <a href="#">Store Locator</a>
+                      </li>
+                      <li>
+                        <a href="#">Wishlist</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Help
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <ul class="m-0 list-unstyled">
+                      <li>
+                        <a href="#">Privacy Policy</a>
+                      </li>
+                      <li>
+                        <a href="#">Checkout</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact us</a>
+                      </li>
+                      <li>
+                        <a href="#">My account</a>
+                      </li>
+                      <li>
+                        <a href="#">About us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    Follow Us
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    <ul class="m-0 list-unstyled">
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-facebook-f"></i>
+                          Facebook
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-twitter"></i>
+                          Twitter
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-instagram"></i>
+                          Instagram</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-youtube"></i>
+                          Youtube
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-pinterest-p"></i>
+                          Pinterest
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-lg d-none d-md-block">
+            <div class="row mx-0">
+              <div class="footer-column col-6 col-lg-3">
+                <h5 class="widget-title">Company</h5>
+                <ul class="m-0 list-unstyled">
+                  <li>
+                    <a href="#">Wishlist</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#">My account</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Store Locator</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer-column col-6 col-lg-3">
+                <h5 class="widget-title">Information</h5>
+                <ul class="m-0 list-unstyled">
+                  <li>
+                    <a href="#">Checkout</a>
+                  </li>
+                  <li>
+                    <a href="#">Cart</a>
+                  </li>
+                  <li>
+                    <a href="#">Shop</a>
+                  </li>
+                  <li>
+                    <a href="#">Store Locator</a>
+                  </li>
+                  <li>
+                    <a href="#">Wishlist</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer-column col-6 col-lg-3">
+                <h5 class="widget-title">Help</h5>
+
+                <ul class="m-0 list-unstyled">
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Checkout</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="#">My account</a>
+                  </li>
+                  <li>
+                    <a href="#">About us</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer-column col-6 col-lg-3">
+                <h5 class="widget-title">Follow Us</h5>
+
+                <ul class="m-0 list-unstyled">
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-facebook-f me-1"></i>
+                      Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-twitter me-1"></i>
+                      Twitter
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-instagram me-1"></i>
+                      Instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-youtube me-1"></i>
+                      Youtube
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-pinterest-p me-1"></i>
+                      Pinterest
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container-lg">
+            <div class="row mx-0">
+              <div
+                class="col-12 col-md-6 footer-bottom-left d-flex align-items-center justify-content-center justify-content-md-start"
+              >
+                <p class="text-white m-0">
+                  Copyright © PlazaThemes. All Rights Reserved.
+                </p>
+              </div>
+
+              <div
+                class="col-12 col-md-6 footer-bottom-right d-flex align-items-center justify-content-center justify-content-md-end"
+              >
+                <img src="assets/img/payment.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="back-to-top">
+        <a
+          href="#"
+          class="d-flex w-100 h-100 justify-content-center align-items-center"
+        >
+          <i class="fa-solid fa-angle-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- bootstrap js -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- owl carousel js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(function () {
+        $(".blog-carousel").owlCarousel({
+          items: 1,
+          loop: false,
+          margin: 10,
+          autoplay: false,
+          dots: true,
+          nav: true,
+          autoplayTimeout: 3000,
+        });
+      });
+    </script>
+
+    <script>
+      $(function () {
+        $(".product-carousel").owlCarousel({
+          items: 1,
+          loop: false,
+          margin: 10,
+          autoplay: false,
+          dots: false,
+          nav: true,
+          autoplayTimeout: 3000,
+          responsive: {
+            0: {
+              items: 2,
+            },
+            768: {
+              items: 3,
+            },
+            992: {
+              items: 4,
+            },
+          },
+        });
+      });
+    </script>
+
+    <script>
+      $(function () {
+        $(".men-carousel").owlCarousel({
+          items: 2,
+          loop: false,
+          margin: 10,
+          autoplay: false,
+          dots: false,
+          nav: true,
+          autoplayTimeout: 3000,
+          responsive: {
+            0: {
+              items: 2,
+            },
+            768: {
+              items: 2,
+            },
+            992: {
+              items: 2,
+            },
+          },
+        });
+      });
+    </script>
+
+    <script src="assets/js/zoom.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
