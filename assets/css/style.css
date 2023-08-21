@@ -2131,6 +2131,27 @@ div.zoom img:hover {
   margin-bottom: 65px;
 }
 
+.children li:first-child{
+    border-top: 1px solid #f0f0f0;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.children li{
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.current-item {
+  color: #313030 !important;
+}
+
+.page-title{
+    color: #313030;
+    font-weight: 400;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
 
 @media (min-width:576px) {
   .sale .inner .banner-title{
